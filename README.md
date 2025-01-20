@@ -1,12 +1,13 @@
 # API REST para Registros de Mamíferos tomados por Cámaras Trampa
 
-Este proyecto es una API RESTful desarrollada para centralizar y gestionar registros de mamíferos observados mediante cámaras trampa, como parte del programa **Paisaje Productivo Protegido**, iniciativa que en conjunto con empresas impulsa la conservación de la biodiversidad y el desarrollo sostenible. La API permite registrar información sobre especies observadas, la categoría de amenaza asociada a la especie, y los paisajes productivos protegidos en los que fueron observadas.
+Este proyecto es una API RESTful desarrollada para centralizar y gestionar registros de mamíferos observados mediante cámaras trampa, como parte del programa **Paisaje Productivo Protegido**, iniciativa que en conjunto con empresas impulsa la conservación de la biodiversidad y el desarrollo sostenible. La API permite cargar y consultar registros, cada uno con una foto, la especie observada y el PPP donde se tomó la captura. Los registros están organizados en torno a las Especies y los PPP, los cuales tienen información adicional.
 
 
 ## Características
 
-- Gestión de registros de mamíferos.
-- Asociación de registros con especies y paisajes productivos protegidos.
+- Cargar Registros: Cada registro puede contener una foto, una especie observada y el PPP donde fue tomada la foto.
+- Especies: Cada especie tiene un nombre, una descripción y una categoría de amenaza.
+- Paisajes Productivos Protegidos (PPP): Cada PPP tiene un nombre, una descripción y las ecorregiones donde trabaja la empresa.
 - Soporte para listar, crear, actualizar y eliminar registros, especies, categorías de amenaza, paisajes y ecorregiones.
 
 ## Endpoints Principales
